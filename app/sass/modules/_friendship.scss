@@ -1,0 +1,88 @@
+.friendship {
+    .section-friendship {
+        padding-top: 100px;
+        padding-bottom: 140px;
+        display: flex;
+        flex-direction: column;
+        @media(max-width: 801px) { 
+            padding-top: 20px;
+            padding-bottom: 40px;
+        }
+        .get-friends {
+            font-family: 'PT Serif';
+            line-height: 52px;
+            font-size: 36px;
+            color: #091220;
+            margin-bottom: 90px;
+            text-align: center;
+            @media(max-width: 801px) { 
+                line-height: 30px;
+                font-size: 24px;
+                margin-bottom: 30px;
+            }
+        }
+        .items-block {
+            display: flex;
+            justify-content: space-between;
+            @media(max-width: 801px) {
+                flex-direction: column;
+            }
+            .item {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                @media(max-width: 801px) {
+                    margin-bottom: 70px;
+                    &:last-child {
+                        margin-bottom: 0px;
+                    }
+                }
+                .arrow {
+                    position: absolute;
+                    top: 35px;
+                    left: 150%;
+                    @media(max-width: 1024px) {
+                        left: 100%
+                    }
+                    @media(max-width: 801px) {
+                        visibility: hidden;
+                    }
+                }
+                .arrow_320 {
+                    position: absolute; 
+                    display: none;
+                    @media(max-width: 801px) {
+                        display: block;
+                        top: 150px;
+                    }
+                }
+                .pic {
+                    margin-bottom: 15px;
+                }
+                .number {
+                    font-family: 'PT Serif';
+                    line-height: 27px;
+                    font-size: 17px;
+                    color: #C4CFDA;
+                }
+                .item-text {
+                    font-family: 'PT Serif';
+                    line-height: 26px;
+                    font-size: 18px;
+                    color: #091220;
+                    text-align: center;
+                    span {
+                        color: #439BFF;
+                        position: absolute;
+                        left: 15%;
+                        @media(max-width: 801px) {
+                            position: static;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

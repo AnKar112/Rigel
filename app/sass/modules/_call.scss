@@ -1,0 +1,108 @@
+.call {
+    background: url(../img/phone@2x.png) no-repeat 100% bottom;
+    background-size: 748px 747px;
+    border-bottom: 1px solid #EAECF6;
+    @media(max-width: 1150px) {
+        background: url(../img/phone@2x.png) no-repeat 200% bottom;
+        background-size: 748px 747px;
+    }
+    @media(max-width: 900px) {
+        background: none;
+    }
+    .section-call {
+        padding: 180px 0 0 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 400px;
+        @media(max-width: 900px) {
+            width: 100%
+        }
+        @media(max-width: 900px) {
+            align-items: flex-start;
+        }
+        @media(max-width: 900px) {
+            padding: 90px 0 0 0;
+        }
+        @media(max-width: 460px) {
+            padding-top: 45px;
+        }
+        @media(max-width: 360px) {
+            padding-top: 20px;
+        }
+        .slogan {
+            font-family: 'PT Serif';
+            line-height: 55px;
+            font-size: 55px;
+            color: #439BFF;
+            margin-bottom: 75px;
+            width: 500px;
+            padding-left: 100px;
+            @media(max-width: 980px) {
+                width: auto;
+                padding-left: 0px;
+            }
+            @media(max-width: 690px) {
+                text-align: center;
+            }
+            @media(max-width: 320px) {
+                line-height: 42px;
+                font-size: 36px;
+                margin-bottom: 15px;
+            }
+        }
+        .title {
+            font-family: 'PT Serif';
+            line-height: 52px;
+            font-size: 40px;
+            color: #091220;
+            margin-bottom: 25px;
+            margin-right: 36px;
+            @media(max-width: 690px) {
+                text-align: center;
+                margin-right: 0px;
+            }
+            @media(max-width: 320px) {
+                line-height: 26px;
+                font-size: 18px;
+                margin-bottom: 30px;
+                align-self: center;
+            }
+        }
+        .item {
+            font-family: "PT Serif";
+            line-height: 26px;
+            font-size: 22px;
+            color: #091220;
+            margin-bottom: 30px;
+            background: url(../img/svg/icons-checked.svg) no-repeat left top;
+            padding-left: 36px;
+            @media(max-width: 320px) {
+                line-height: 22px;
+                font-size: 14px;
+                padding-left: 40px;
+            }
+        }
+        .item-last {
+                margin-bottom: 0px;
+                padding-bottom: 180px;
+                @media(max-width: 900px) {
+                    padding-bottom: 90px;
+                }
+                @media(max-width: 480px) {
+                    padding-bottom: 25px;
+                }
+        }
+        .phone {
+            display: none;
+            margin-bottom: 25px;
+            margin-top: 25px;
+            width: 270px;
+            height: 542px;
+            @media(max-width: 480px) {
+                display: block; 
+                align-self: center;
+            }
+        }
+    }
+}

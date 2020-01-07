@@ -1,0 +1,14 @@
+.wrapper {
+  padding: 0 25px;
+  width: calc(100% - 50px);
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+body {
+  overflow-y: scroll;
+}
+
+.overflow {
+  -webkit-overflow-scrolling: touch;
+}
